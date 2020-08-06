@@ -47,7 +47,8 @@ nav a{
 	height: 20px;
 }
 .active{
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
+	opacity: 1;
 }
 .left {
 	background-color: #848E66;
@@ -74,13 +75,35 @@ nav a{
 p {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
 }
-table, td, th {
-    border: 1px solid DimGray;
+table{
+    margin:30px 0px 0px 10%;
 }
-table {
-    border-collapse: collapse;
+table tr th{
+    color:white;
+    background: #8FA560;
+    padding:12px;
+    border-radius:3px 3px 0px 0px;
+    border-bottom:4px solid #AAE06B;
+    box-shadow: 0px 0px 5px #8FA560;
 }
-th {
+table tr th:first-child{
     text-align: left;
+}
+table tr td{
+    background: #d6ecc8;
+    border-radius: 2px;
+    padding:10px;
+    color: grey;
+    font-family: inherit;
+    text-align: center;
+    opacity:1;
+    box-shadow: 0px 0px 6px #d6ecc8;
+}
+table tr td:first-child{
+    text-align: left;
+}
+table tr td:hover{
+    opacity: 1;
+    color:darkseagreen;
 }
 
